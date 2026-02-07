@@ -1,0 +1,12 @@
+{
+    "name": "gvrdp",
+    "version-string": "0.1.0",
+    "description": "Cross-platform RDP client with dynamic resolution",
+    "dependencies": [
+        "freerdp",
+        "sdl2",
+        "spdlog",
+        "nlohmann-json",
+        "gtest"
+    ]
+}

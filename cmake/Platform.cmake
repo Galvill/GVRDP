@@ -1,0 +1,13 @@
+if(WIN32)
+    set(GVRDP_PLATFORM "windows")
+    add_definitions(-DGVRDP_PLATFORM_WINDOWS)
+    add_definitions(-DNOMINMAX -DWIN32_LEAN_AND_MEAN)
+elseif(APPLE)
+    set(GVRDP_PLATFORM "macos")
+    add_definitions(-DGVRDP_PLATFORM_MACOS)
+elseif(UNIX)
+    set(GVRDP_PLATFORM "linux")
+    add_definitions(-DGVRDP_PLATFORM_LINUX)
+endif()
+
+message(STATUS "GVRDP platform: ${GVRDP_PLATFORM}")

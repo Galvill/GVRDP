@@ -1,0 +1,29 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# OS
+.DS_Store
+Thumbs.db
+
+# vcpkg
+vcpkg_installed/
+
+# Config (user data)
+*.user
