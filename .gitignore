@@ -27,3 +27,6 @@ vcpkg_installed/
 
 # Config (user data)
 *.user
+
+# Claude
+.claude/
